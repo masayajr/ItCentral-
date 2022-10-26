@@ -1,0 +1,2358 @@
+*{
+    padding: 0;  
+}
+
+body{
+    overflow-x: hidden;
+} 
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    width: 25em;
+} 
+
+
+.navContainer{
+    width: 100vw;  
+}
+
+.subNav{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 30%;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+
+} 
+
+.logo{
+    width: 30%;
+    height: 20%;
+    margin-right: 100px;
+} 
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* margin-right: 50px; */
+}
+
+li{
+
+    /* margin-left: 3px; */
+    list-style: none;
+    margin-top: 0px;
+    font-size: 29px;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+} 
+
+.img1{
+    width: 50vw;
+    margin-left: 500px;
+} 
+
+/* .imgContainer{
+    position: f;
+} */
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;  
+    column-gap: 50px; 
+    margin-left: 200px;
+    /* position: fixed; */
+    
+    /* border: 1px solid blue; */
+}  
+
+.fImg{
+    width: 50vw;
+    margin-left: 50px;  
+    margin-bottom: 100px; 
+} 
+
+    .subHead{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    flex-direction: column;
+    margin-bottom: 460px; 
+    width: 30vw;
+    /* border: 1px solid red; */
+}
+
+.headText{
+    width: 100%;
+    font-size: 70px; 
+    margin-left: 100px; 
+    margin-top: 100px; 
+} 
+
+.textSub{ 
+    /* border: 1px solid green;  */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;  
+    height: 40vh;
+    margin-bottom: 00px;
+    margin-right: 0px;
+    margin-left: 60px;
+}
+
+.subText{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 15px;
+    margin-block-start: 15em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 3600px;
+    color: #000000;
+}
+
+.firstBold{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 100px;
+} 
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+    gap: 10px; 
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    
+    /* position: absolute; */
+    width: 240px;
+    height: 72px;
+    left: 48px;
+    top: 754px; 
+    
+    /* Primary */
+    
+    background: #0C5FAF;
+    border-radius: 10px; 
+    border: #0C5FAF;
+}
+
+.sImg{ 
+    display: flex;
+    justify-content: center;
+    width: 95vw; 
+    height: 10vh; 
+    margin-left: 20px;
+}
+
+h3{ 
+    display: flex;
+    justify-content: center;
+    width: 244px;
+    height: 56px;
+    margin-left: 30px;
+    
+/* Bold Body Text */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 56px;
+/* identical to box height, or 224% */
+
+letter-spacing: 0.01em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+} 
+
+h1{
+    /* display: flex;
+    justify-content: center;  */
+    width: 25vw;
+    height: 56px;
+    margin-left: 30px;
+
+    /* Bold Body Text */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 56px;
+    /* identical to box height, or 115% */
+    
+    letter-spacing: 0.01em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #021324;
+} 
+
+.tImg{
+    display: flex;
+    justify-content: center;  
+    margin-left: 50px;
+    width: 95vw; 
+    height: 50vh; 
+    border-radius: 10px;
+} 
+
+.Img{ 
+    display: flex;
+    justify-content: center;  
+    justify-content: space-between;
+    width: 100%;  
+    height: 100%;
+    gap: 50px; 
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); */
+    border-radius: 20px; 
+    background-color: white;
+}  
+
+.dImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    height: 46vh; 
+    width: 25vw;  
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);  
+    border-radius: 20px;
+    /* background-color: white; */
+    
+}
+
+.eImg{
+    width: 25vw;
+} 
+
+.lastHead{
+    width: 344px;
+    height: 56px;
+    margin-left: 30px;
+    top: 1824px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 56px;
+    /* identical to box height, or 115% */
+    
+    letter-spacing: 0.01em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    color: #021324;
+} 
+
+.stackedpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 90vw;  
+    margin-left: 100px;
+    /* border: 1px solid green; */
+} 
+
+.img1{
+    width: 100%;
+} 
+
+.Shead{ 
+    width: 30vw;
+    margin-left: 180px; 
+    margin-top: -450px;  
+    /* border: 1px solid blue; */
+}
+
+.sHead{
+    width: 50vw;
+    height: 128px;
+    left: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    
+    margin-block-start: 1em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 200px;
+    margin-inline-end: 0px;
+    color: #243529;
+}
+
+.sNote{
+    width: 36vw;
+height: 144px;
+left: 48px;
+top: 2688px;
+
+/* Body Text */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+/* or 240% */
+
+margin-block-start: -2em;
+margin-block-end: 0.83em;
+margin-inline-start: 200px;
+margin-inline-end: 0px;
+color: #000000;
+} 
+
+.lImg{
+    width: 50vw;  
+    margin-right: 100pxs; 
+    margin-top: 150px;
+} 
+
+.img2{
+    width: 100%;
+}
+
+.Lhead{ 
+    width: 30vw;
+    margin-left: 950px; 
+    margin-top: -670px;  
+    /* border: 1px solid blue; */
+}
+
+.lHead{
+    width: 50vw;
+    height: 128px;
+    left: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    
+    margin-block-start: -2em;
+margin-block-end: 0.83em;
+margin-inline-start: 200px;
+margin-inline-end: 0px;
+    color: #243529;
+}
+
+.lNote{
+    width: 26vw;
+height: 144px;
+left: 48px;
+top: 2688px;
+
+/* Body Text */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+/* or 240% */
+
+margin-block-start: -2em;
+margin-block-end: 0.83em;
+margin-inline-start: 200px;
+margin-inline-end: 0px;
+color: #000000;
+}  
+
+@media screen and (min-width: 280px) and (max-width: 500px) { 
+
+    .navContainer{
+        width: 100vw;
+    }
+    
+    .subNav{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        width: 100%;
+        height: 59px;
+        background-color: white;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+
+    } 
+    
+    .logo{
+        width: 109px;
+        height: 25px;
+        margin-left: 10px;
+    } 
+
+    .navList{
+        width: 100%;
+    }
+    
+    .list{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin-left: 16px;
+    }
+    
+    li{
+
+        margin-left: 13px;
+        list-style: none;
+        margin-top: 0px;
+        font-size: 9px;
+        list-style-type: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: -30px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    
+    }  
+
+
+    .headText{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 4.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 141px;
+        margin-inline-end: 0px;
+    }  
+
+    .subText{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin-block-start: -6em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 905px;
+        color: #000000;
+    }
+
+    .fImg{
+        width: 50vw;
+        height: 16vh;
+        margin-right: 126px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -17em;
+        margin-block-end: 1em;
+        margin-inline-start: -24px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 95vw;
+        height: 3vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 11px;
+        color: white;
+        width: 100px;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* gap: 50px; */
+        margin-right: 109px;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .eImg{
+        width: 100vw;
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 92vw;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+        border-radius: 20px;
+        background-color: white;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 50em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;    
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -13.17em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 670px;
+        margin-top: 89px;
+    }
+    
+    .sNote{
+    width: 100vw;
+    height: 144px;
+    left: 48px;
+    top: 2688px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #000000;
+    display: block;
+    margin-block-start: 8em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 100vw;
+        margin-top: 100px; 
+    }
+
+    .Lhead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -15em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 100vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 10em;
+        margin-block-end: 6em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+} 
+    
+/* .dImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 24px;
+    
+    width: 414.57px;
+    height: 1000000px; */
+    
+    /* Primary */
+/*     
+    background: #0C5FAF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; */
+    
+    /* Inside auto layout */
+/*     
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* }  */
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .headText{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 4.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 141px;
+        margin-inline-end: 0px;
+    }  
+
+    .subText{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin-block-start: -6em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 970px;
+        color: #000000;
+    }
+
+    .fImg{
+        width: 50vw;
+        height: 16vh;
+        margin-right: 126px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -17em;
+        margin-block-end: 1em;
+        margin-inline-start: -24px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 95vw;
+        height: 3vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 11px;
+        color: white;
+        width: 100px;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* gap: 50px; */
+        margin-right: 109px;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .eImg{
+        width: 100vw;
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 92vw;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+        border-radius: 20px;
+        background-color: white;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 50em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;    
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -13.17em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 650px;
+        margin-top: 89px;
+    }
+    
+    .sNote{
+    width: 96vw;
+    height: 144px;
+    left: 48px;
+    top: 2688px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #000000;
+    display: block;
+    margin-block-start: 8em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .Lhead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -17em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 100vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 13em;
+        margin-block-end: 6em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+} 
+
+@media screen and (min-width: 370px) and (max-width: 500px) {
+    .headText{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 100;
+        margin-block-start: 4.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 141px;
+        margin-inline-end: 0px;
+    }  
+
+    .subText{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin-block-start: -6em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 1060px;
+        color: #000000;
+    }
+
+    .fImg{
+        width: 50vw;
+        height: 16vh;
+        margin-right: 126px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -17em;
+        margin-block-end: 1em;
+        margin-inline-start: -24px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 95vw;
+        height: 3vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 11px;
+        color: white;
+        width: 100px;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* gap: 50px; */
+        margin-right: 109px;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .eImg{
+        width: 100vw;
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 92vw;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+        border-radius: 20px;
+        background-color: white;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 66em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;   
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -16em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 650px;
+        margin-top: 89px;
+    }
+    
+    .sNote{
+        width: 96vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 12em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .Lhead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -21em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 100vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 20em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+} 
+@media screen and (min-width: 420px) and (max-width: 500px) {
+    .headText{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 100;
+        margin-block-start: 4.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 141px;
+        margin-inline-end: 0px;
+    }  
+
+    .subText{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin-block-start: -6em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 1140px;
+        color: #000000;
+    }
+
+    .fImg{
+        width: 50vw;
+        height: 16vh;
+        margin-right: 126px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -17em;
+        margin-block-end: 1em;
+        margin-inline-start: -24px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 95vw;
+        height: 3vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 11px;
+        color: white;
+        width: 100px;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* gap: 50px; */
+        margin-right: 109px;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .eImg{
+        width: 100vw;
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 92vw;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+        border-radius: 20px;
+        background-color: white;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 66em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;   
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -16em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 650px;
+        margin-top: 89px;
+    }
+    
+    .sNote{
+        width: 96vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 12em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .Lhead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -21em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 100vw;
+        height: 144px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: 20em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+} 
+
+@media screen and (min-width: 520px) and (max-width: 920px) {
+    .headText{
+        width: 100%;
+        font-size: 29px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 2.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 135px;
+        margin-inline-end: 0px;
+    }   
+
+    .textSub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vw;
+        height: 40vh;
+        margin-bottom: 00px;
+        margin-right: 0px;
+        margin-left: 60px;
+    }
+
+    .subText{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 8em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 1800px;
+    } 
+
+    .lol{
+        width: 146%;    
+    }
+
+    .fImg{
+        width: 60vw;
+        height: 33vh;
+        margin-right: 80px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -5em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        width: 96vw;
+        height: 5vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 11px;
+        color: white;
+        width: 100px;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 21vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin-right: 150px;
+        border-radius: 20px;
+    }
+
+    .eImg{
+        width: 23vw;
+        height: 21vh; 
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 20vw;
+        height: 19vh;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 10px;
+        /* background-color: white;; */
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 3em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 20vw;
+        height: 72px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -6em;
+        margin-block-end: 0em;
+        margin-inline-start: 30px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 570px;
+        margin-top: 0px;
+    }
+    
+    .sNote{
+        width: 35vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -3em;
+        margin-block-end: 0em;
+        margin-inline-start: 36px;
+        margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 70vw;
+        margin-top: 100px;
+    } 
+
+    .img2{
+        width: 94%;
+    }
+
+    .Lhead{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 55vw;
+        height: 128px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -12em;
+        margin-block-end: 0em;
+        margin-inline-start: 495px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 35vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -7em;
+        margin-block-end: 0em;
+        margin-inline-start: 499px;
+        margin-inline-end: 0px;
+    } 
+}
+@media screen and (min-width: 1024px) and (max-width: 1450px) {
+    .headText{
+        width: 100%;
+        font-size: 53px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 135px;
+        margin-inline-end: 0px;
+    }   
+
+    .textSub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vw;
+        height: 40vh;
+        margin-bottom: 00px;
+        margin-right: 0px;
+        margin-left: 60px;
+    }
+
+    .subText{
+        width: 100%;
+        font-size: 19px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 13em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 2109px;
+    }  
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 0px;
+    }
+
+    .lol{
+        width: 146%;    
+    }
+
+    .fImg{
+        width: 60vw;
+        height: 48vh;
+        margin-right: 0px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -5em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        width: 98vw;
+        height: 8vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+        width: 17vw;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 21vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin-right: 150px;
+        border-radius: 20px;
+    }
+
+    .eImg{
+        width: 25vw;
+        height: 33vh; 
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 25vw;
+        height: 30vh;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 10px;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 7em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 35vw;
+        height: 72px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -4em;
+        margin-block-end: 0em;
+        margin-inline-start: 30px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 570px;
+        margin-top: 0px;
+    }
+    
+    .sNote{
+        width: 35vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -2em;
+        margin-block-end: 0em;
+        margin-inline-start: 36px;
+        margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 70vw;
+        margin-top: 100px;
+    } 
+
+    .img2{
+        width: 94%;
+    }
+
+    .Lhead{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 35vw;
+        height: 72px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -8em;
+        margin-block-end: 0em;
+        margin-inline-start: 676px;
+        margin-inline-end: 0px;
+    } 
+
+    .lNote{
+        width: 35vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -2em;
+        margin-block-end: 0em;
+        margin-inline-start: 679px;
+        margin-inline-end: 0px;
+    } 
+} 
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+    .headText{
+        width: 100%;
+        font-size: 53px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 135px;
+        margin-inline-end: 0px;
+    }   
+
+    .textSub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vw;
+        height: 40vh;
+        margin-bottom: 00px;
+        margin-right: 0px;
+        margin-left: 60px;
+    }
+
+    .subText{
+        width: 100%;
+        font-size: 19px;
+        font-weight: 100;
+        /* margin-left: 115px; */
+        /* margin-top: 100px; */
+        margin-block-start: 13em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 2740px;
+    }  
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 0px;
+    }
+
+    .lol{
+        width: 146%;    
+    }
+
+    .fImg{
+        width: 60vw;
+        height: 62vh;
+        margin-right: 0px;
+        margin-bottom: 372px;
+    } 
+
+    h3{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        /* height: 56px; */
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+        margin-block-start: -5em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .sImg{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        height: 8vh;
+        margin-left: 0px;
+    } 
+
+    button{
+        display: flex;
+        flex-direction: column;
+        padding: 9px 2px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+        width: 17vw;
+        height: 10%;
+        background: #0C5FAF;
+        border-radius: 10px;
+        border: #0C5FAF;
+    } 
+
+    h1{
+        width: 45%;
+        height: 18px;
+        margin-left: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25.83px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        margin-block-start: 0em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .firstBold{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0px;
+    }  
+
+    .tImg{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 45vh;
+        border-radius: 10px;
+    } 
+
+    .Img{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin-right: 150px;
+        border-radius: 20px;
+    }
+
+    .eImg{
+        width: 25vw;
+        height: 45vh;
+    } 
+
+    .dImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 10px;
+        /* height: 115vh; */
+        width: 25vw;
+        height: 41vh;
+        /* box-shadow: 0px 4px 20px rgb(0 0 0 / 50%); */
+        border-radius: 10px;
+    } 
+
+    .lastHead{
+        width: 344px;
+        height: 56px;
+        margin-left: 30px;
+        top: 1824px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #021324;
+        display: block;
+        margin-block-start: 7em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+
+    .Shead{
+        width: 30vw;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .sHead{
+        width: 35vw;
+        height: 72px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -5em;
+        margin-block-end: 0em;
+        margin-inline-start: 90px;
+        margin-inline-end: 0px;
+    } 
+
+    .stackedpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 100px;
+        margin-top: 0px;
+    } 
+
+    .img1 {
+        width: 100%;
+        margin-right: 570px;
+        margin-top: 0px;
+    }
+    
+    .sNote{
+        width: 35vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -2em;
+        margin-block-end: 0em;
+        margin-inline-start: 95px;
+        margin-inline-end: 0px;
+    }
+
+    .lImg{
+        width: 70vw;
+        margin-top: 100px;
+    } 
+
+    .img2{
+        width: 94%;
+    }
+
+    .Lhead{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 0px;
+        margin-top: 0px;
+    } 
+
+    .lHead{
+        width: 35vw;
+        height: 72px;
+        left: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 37px;
+        color: #243529;
+        margin-block-start: -10em;
+        margin-block-end: 0em;
+        margin-inline-start: 895px;
+        margin-inline-end: 0px;
+    }
+
+    .lNote{
+        width: 30vw;
+        height: 130px;
+        left: 48px;
+        top: 2688px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        display: block;
+        margin-block-start: -2em;
+        margin-block-end: 0em;
+        margin-inline-start: 896px;
+        margin-inline-end: 0px;
+    } 
+} 
+ 
